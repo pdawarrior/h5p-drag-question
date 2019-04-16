@@ -1,107 +1,107 @@
 {
   "semantics": [
     {
-      "label": "Check answer button",
-      "default": "Check"
+      "label": "Kiểm tra nút trả lời",
+      "default": "Kiểm tra"
     },
     {
-      "label": "Retry button",
-      "default": "Retry"
+      "label": "Nút thử lại",
+      "default": "Thử lại"
     },
     {
-      "label": "Score explanation text",
-      "default": "Correct answers give +1 point. Incorrect answers give -1 point. The lowest possible score is 0."
+      "label": "Văn bản giải thích điểm",
+      "default": "Câu trả lời đúng cho điểm +1. Câu trả lời không chính xác cho -1 điểm. Điểm thấp nhất có thể là 0."
     },
     {
       "fields": [
         {
-          "label": "Settings",
+          "label": "Cài đặt",
           "fields": [
             {
-              "label": "Background image",
-              "description": "Optional. Select an image to use as background for your drag and drop task."
+              "label": "Hình nền",
+              "description": "Không bắt buộc. Chọn một hình ảnh để sử dụng làm nền cho nhiệm vụ kéo và thả của bạn."
             },
             {
-              "label": "Task size",
-              "description": "Specify how large (in px) the play area should be."
+              "label": "Kích thước tác vụ",
+              "description": "Chỉ định diện tích phát (bằng px) lớn như thế nào."
             }
           ]
         },
         {
-          "label": "Task",
-          "description": "Start by placing your drop zones.<br/>Next, place your droppable elements and check off the appropriate drop zones.<br/>Last, edit your drop zone again and check off the correct answers.",
+          "label": "Nhiệm vụ",
+          "description": "Bắt đầu bằng cách đặt các vùng thả của bạn.<br/>Tiếp theo, đặt các yếu tố có thể rơi của bạn và kiểm tra các vùng thả thích hợp.<br/>Cuối cùng, sửa lại vùng thả của bạn và kiểm tra câu trả lời đúng.",
           "fields": [
             {
-              "label": "Elements",
+              "label": "Phần tử",
               "entity": "element",
               "field": {
-                "label": "Element",
+                "label": "Phần tử",
                 "fields": [
                   {
-                    "description": "Choose the type of content you would like to add."
+                    "description": "Chọn loại nội dung bạn muốn thêm."
                   },
                   {},
                   {},
                   {},
                   {},
                   {
-                    "label": "Select drop zones"
+                    "label": "Chọn vùng thả"
                   },
                   {
-                    "label": "Background Opacity"
+                    "label": "Độ mờ nền"
                   },
                   {
-                    "label": "Infinite number of element instances",
-                    "description": "Clones this element so that it can be dragged to multiple drop zones."
+                    "label": "Số lượng phần tử vô hạn",
+                    "description": "Nhân bản phần tử này để có thể kéo nó vào nhiều vùng thả."
                   }
                 ]
               }
             },
             {
-              "label": "Drop Zones",
+              "label": "Khu vực thả",
               "entity": "Drop Zone",
               "field": {
-                "label": "Drop Zone",
+                "label": "Khu vực thả",
                 "fields": [
                   {
-                    "label": "Label"
+                    "label": "Nhãn"
                   },
                   {
-                    "label": "Show label"
+                    "label": "Hiển thị nhãn"
                   },
                   {},
                   {},
                   {},
                   {},
                   {
-                    "label": "Select correct elements"
+                    "label": "Chọn thành phần chính xác"
                   },
                   {
-                    "label": "Background Opacity"
+                    "label": "Độ mờ nền"
                   },
                   {
-                    "label": "Tips and feedback",
+                    "label": "Gợi ý và phản hồi",
                     "fields": [
                       {
-                        "label": "Tip text"
+                        "label": "Văn bản gợi ý"
                       },
                       {
-                        "label": "Message displayed on correct match",
-                        "description": "Message will appear below the task on \"check\" if correct droppable is matched."
+                        "label": "Thông báo hiển thị khi ghép đúng",
+                        "description": "Thông báo sẽ xuất hiện bên dưới tác vụ khi \"kiểm tra\" nếu kết quả thả là đúng."
                       },
                       {
-                        "label": "Message displayed on incorrect match",
-                        "description": "Message will appear below the task on \"check\" if the match is incorrect."
+                        "label": "Thông báo hiển thị khi kết quả không khớp",
+                        "description": "Thông báo sẽ xuất hiện bên dưới tác vụ khi \"kiểm tra\" nếu kết quả không phù hợp."
                       }
                     ]
                   },
                   {
-                    "label": "This drop zone can only contain one element",
-                    "description": "Make sure there is only one correct answer for this dropzone"
+                    "label": "Vùng thả này chỉ có thể chứa một phần tử",
+                    "description": "Đảm bảo chỉ có một câu trả lời đúng cho vùng thả này"
                   },
                   {
-                    "label": "Enable Auto-Align",
-                    "description": "Will auto-align all draggables dropped in this zone."
+                    "label": "Bật Tự động căn chỉnh",
+                    "description": "Sẽ tự động căn chỉnh tất cả các đối tượng được thả trong khu vực này."
                   }
                 ]
               }
@@ -111,26 +111,26 @@
       ]
     },
     {
-      "label": "Overall Feedback",
+      "label": "Phản hồi tổng thể",
       "fields": [
         {
           "widgets": [
             {
-              "label": "Default"
+              "label": "Mặc định"
             }
-          ],
-          "label": "Define custom feedback for any score range",
-          "description": "Click the \"Add range\" button to add as many ranges as you need. Example: 0-20% Bad score, 21-91% Average Score, 91-100% Great Score!",
+          ], 
+          "label": "Xác định phản hồi tùy chỉnh cho bất kỳ thang điểm nào",
+          "description": "Nhấp vào nút \"Thêm thang điểm\" để thêm bao nhiêu thang điểm bạn cần. Ví dụ: 0-20% Điểm kém, 21-91% Điểm trung bình, 91-100% Điểm tuyệt vời!",
           "entity": "range",
           "field": {
             "fields": [
               {
-                "label": "Score Range"
+                "label": "Thang điểm"
               },
               {},
               {
-                "label": "Feedback for defined score range",
-                "placeholder": "Fill in the feedback"
+                "label": "Phản hồi cho thang điểm được xác định",
+                "placeholder": "Điền vào phản hồi"
               }
             ]
           }
@@ -138,122 +138,122 @@
       ]
     },
     {
-      "label": "Behavioural settings",
-      "description": "These options will let you control how the task behaves.",
+      "label": "Cài đặt hành vi",
+      "description": "Các tùy chọn này sẽ cho phép bạn kiểm soát cách thức thực hiện tác vụ.",
       "fields": [
         {
-          "label": "Enable \"Retry\""
+          "label": "Kích hoạt \"Thử lại\""
         },
         {
-          "label": "Enable \"Check\" button"
+          "label": "Kích hoạt nút \"Kiểm tra\""
         },
         {
-          "label": "Require user input before the solution can be viewed"
+          "label": "Yêu cầu đầu vào của người dùng trước khi có thể xem giải pháp"
         },
         {
-          "label": "Give one point for the whole task",
-          "description": "Disable to give one point for each draggable that is placed correctly."
+          "label": "Cho một điểm cho toàn bộ nhiệm vụ",
+          "description": "Vô hiệu hóa để cho một điểm cho mỗi lần kéo được đặt chính xác."
         },
         {
-          "label": "Apply penalties",
-          "description": "Apply penalties for elements dropped in the wrong drop zones. This must be enabled when the same element(s) are able to be dropped into multiple drop zones, or if there is only one drop-zone. If this is not enabled, learners may match all items to all drop-zones and always receive a full score."
+          "label": "Áp dụng điểm phạt",
+          "description": "Áp dụng điểm phạt cho các phần tử rơi vào vùng thả sai. Điều này phải được kích hoạt khi (các) phần tử giống nhau có thể được thả vào nhiều vùng thả hoặc nếu chỉ có một vùng thả. Nếu điều này không được kích hoạt, người học có thể khớp tất cả các mục với tất cả các khu vực thả và luôn nhận được điểm cao."
         },
         {
-          "label": "Enable score explanation",
-          "description": "Display a score explanation to user when checking their answers (if the 'Apply penalties' option has been selected)."
+          "label": "Kích hoạt giải thích điểm",
+          "description": "Hiển thị giải thích điểm cho người dùng khi kiểm tra câu trả lời của họ (nếu tùy chọn 'Áp dụng điểm phạt' đã được chọn)."
         },
         {
-          "label": "Background opacity for draggables",
-          "description": "If this field is set, it will override opacity set on all draggable elements. This should be a number between 0 and 100, where 0 means full transparency and 100 means no transparency"
+          "label": "Độ mờ nền cho khả năng kéo",
+          "description": "Nếu trường này được đặt, nó sẽ ghi đè độ mờ được đặt trên tất cả các phần tử có thể kéo. Đây phải là một số trong khoảng từ 0 đến 100, trong đó 0 có nghĩa là minh bạch hoàn toàn và 100 có nghĩa là không minh bạch"
         },
         {
-          "label": "Drop Zone Highlighting",
-          "description": "Choose when to highlight drop zones.",
+          "label": "Đánh dấu vùng thả",
+          "description": "Chọn thời điểm đánh dấu vùng thả.",
           "options": [
             {
-              "label": "When dragging"
+              "label": "Khi kéo"
             },
             {
-              "label": "Always"
+              "label": "Luôn luôn"
             },
             {
-              "label": "Never"
+              "label": "Không bao giờ"
             }
           ]
         },
         {
-          "label": "Spacing for Auto-Align (in px)"
+          "label": "Khoảng cách cho Tự động căn chỉnh (tính bằng px)"
         },
         {
-          "label": "Enable FullScreen",
-          "description": "Check this option to enable the full screen button."
+          "label": "Kích hoạt FullScreen",
+          "description": "Kiểm tra tùy chọn này để bật nút toàn màn hình."
         },
         {
-          "label": "Show score points",
-          "description": "Show points earned for each answer. Not available when the 'Give one point for the whole task' option is enabled."
+          "label": "Hiển thị điểm số",
+          "description": "Hiển thị số điểm kiếm được cho mỗi câu trả lời. Không khả dụng khi tùy chọn 'Cho một điểm cho toàn bộ tác vụ' được bật."
         },
         {
-          "label": "Show Title",
-          "description": "Uncheck this option if you do not want this title to be displayed. The title will only be displayed in summaries, statistics etc."
+          "label": "Hiển thị tiêu đề",
+          "description": "Bỏ chọn tùy chọn này nếu bạn không muốn tiêu đề này được hiển thị. Tiêu đề sẽ chỉ được hiển thị trong bản tóm tắt, số liệu thống kê, v.v."
         }
       ]
     },
     {
-      "label": "Localize",
+      "label": "Bản địa hóa",
       "fields": [
         {
-          "label": "Fullscreen label",
-          "default": "Fullscreen"
+          "label": "Nhãn toàn màn hình",
+          "default": "Toàn màn hình"
         },
         {
-          "label": "Exit fullscreen label",
-          "default": "Exit fullscreen"
+          "label": "Thoát nhãn toàn màn hình",
+          "default": "Thoát toàn màn hình"
         }
       ]
     },
     {
-      "label": "Grabbable prefix",
-      "default": "Grabbable {num} of {total}."
+      "label": "Tiền tố có thể lấy được",
+      "default": "Có thể lấy được {num} trong số {total}."
     },
     {
-      "label": "Grabbable suffix",
-      "default": "Placed in dropzone {num}."
+      "label": "hậu tố có thể lấy được",
+      "default": "Được đặt trong vùng thả {num}."
     },
     {
-      "label": "Dropzone prefix",
-      "default": "Dropzone {num} of {total}."
+      "label": "Tiền tố Vùng thả",
+      "default": "Vùng thả {num} trên {total}."
     },
     {
-      "label": "No dropzone selection label",
-      "default": "No dropzone."
+      "label": "Không có nhãn lựa chọn vùng thả",
+      "default": "Không có vùng thả."
     },
     {
-      "label": "Label for show tip button",
-      "default": "Show tip."
+      "label": "Nhãn cho nút hiển thị gợi ý",
+      "default": "Hiển thị gợi ý."
     },
     {
-      "label": "Label for tip available",
-      "default": "Tip available"
+      "label": "Nhãn cho gợi ý có sẵn",
+      "default": "Gợi có sẵn"
     },
     {
-      "label": "Label for correct answer",
-      "default": "Correct answer"
+      "label": "Nhãn cho câu trả lời đúng",
+      "default": "Câu trả lời đúng"
     },
     {
-      "label": "Label for incorrect answer",
-      "default": "Wrong answer"
+      "label": "Nhãn cho câu trả lời không đúng",
+      "default": "Trả lời sai"
     },
     {
-      "label": "Header for panel containing feedback for correct/incorrect answers",
-      "default": "Feedback"
+      "label": "Tiêu đề cho bảng điều khiển chứa phản hồi cho câu trả lời đúng/không đúng",
+      "default": "Phản hồi"
     },
     {
-      "label": "Textual representation of the score bar for those using a readspeaker",
-      "default": "You got :num out of :total points"
+      "label": "Trình bày văn bản của thanh điểm cho những người sử dụng bộ đọc",
+      "default": "Bạn đã nhận :num trong :tổng số điểm"
     },
     {
-      "label": "Textual representation of the score explanation button",
-      "default": "Show score explanation"
+      "label": "Trình bày văn bản của nút giải thích điểm",
+      "default": "Hiển thị giải thích điểm số"
     }
   ]
 }
